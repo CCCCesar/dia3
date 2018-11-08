@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'harry'; /*a name to be used later*/
+    src: url('harry.ttf'); /*URL to font*/
+}
+
+
+.boton {
+	color: white;
+	border-radius: 4px;
+	background-color: #1997C6;
+	font-size: 17px;
+	padding-left: 2px;
+	padding-right: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'harry';
+}
+
+
+
+/*
+ *El codigo a continuación
+ *coloca el estilo al primer hijo
+*/
+tr:first-child {
+	background-color: #542400;
+}
+
+
+/*
+ *El codigo a coninación
+ *coloca el estilo al último hijo
+*/
+tr:last-child {
+	background-color: #542400;
+}
+
+p.parrafo1{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.parrafo1{
+	color: #0000ff;
+	font-size: 40px;
+}
+span[name]{
+	font-size: 8px;
+	background-color: #00ff00;
+}
+span[name='minombre']{
+	font-size: 8px;
+	background-color: #00ffff;
+}
